@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Instagram, Mail, Youtube, Twitter } from 'lucide-react';
+import logoImage from '../../imports/WhatsApp_Image_2026-05-18_at_2.43.11_PM.jpeg';
 
 const socialLinks = [
   { icon: Instagram, label: 'Instagram', href: 'https://instagram.com/feelgood.editss', primary: true },
@@ -102,7 +103,7 @@ export function Footer() {
             className="mb-6"
           >
             <img
-              src="/src/imports/WhatsApp_Image_2026-05-18_at_2.43.11_PM.jpeg"
+              src={logoImage}
               alt="feelgood.editss"
               className="h-20 w-20 rounded-full mx-auto"
               style={{

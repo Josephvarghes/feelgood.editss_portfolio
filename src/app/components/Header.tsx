@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Instagram } from 'lucide-react';
+import logoImage from '../../imports/WhatsApp_Image_2026-05-18_at_2.43.11_PM.jpeg';
 
 export function Header() {
   return (
@@ -18,7 +19,7 @@ export function Header() {
         {/* Logo */}
         <a href="#" className="flex items-center group">
           <img
-            src="/src/imports/WhatsApp_Image_2026-05-18_at_2.43.11_PM.jpeg"
+            src={logoImage}
             alt="feelgood.editss"
             className="h-16 w-16 rounded-full transition-transform duration-300 group-hover:scale-105"
             style={{

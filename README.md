@@ -1,7 +1,7 @@
 # feelgood.editss_portfolio
 
 
-## Running the code
+## Running 
 
 Run `npm i` to install the dependencies.
 
